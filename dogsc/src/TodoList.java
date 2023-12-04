@@ -55,6 +55,12 @@ public class TodoList extends JPanel {
     private int prevDayButtonClickCount = 0;
     private int nextDayButtonClickCount = 0;
 
+    //순서 바꾸기
+    private int orderIndex;
+    private TodoData todoData;
+    private String todoDate;
+    private int is_completed;
+    String compareDate; //날짜 비교해서 제한하기
 
     //순서 바꾸기
     private int orderIndex;

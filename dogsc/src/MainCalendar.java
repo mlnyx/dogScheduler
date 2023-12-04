@@ -202,6 +202,7 @@ public class MainCalendar extends JPanel {
     * @param weekDates 해당하는 주의 리스트
     */
 
+
     private void displayWeek(List<Date> weekDates) {
         for (Date date : weekDates) {
             JPanel datePanel = new JPanel(new BorderLayout());
